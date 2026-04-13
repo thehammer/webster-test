@@ -1,0 +1,22 @@
+{
+  "name": "webster-test",
+  "version": "0.1.0",
+  "description": "Natural language smoke tests powered by Claude and Webster",
+  "type": "module",
+  "bin": {
+    "webster-test": "./src/cli.ts"
+  },
+  "scripts": {
+    "test": "bun run src/cli.ts run tests/google.smoke.md",
+    "check": "bun x tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.88.0"
+  }
+}
