@@ -1,6 +1,6 @@
 # webster-test
 
-Natural-language smoke tests powered by Claude and [Webster](https://github.com/hammer/webster).
+Natural-language smoke tests powered by Claude and [Webster](https://github.com/thehammer/webster).
 
 Write tests in plain English. A Claude agent drives a real browser through Webster's MCP API to execute each scenario, adapting to minor UI changes rather than breaking on them. Output is a readable report you can trust as a signal of real breakage — not a CSS selector that changed.
 
